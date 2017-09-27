@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    An example of an AirspaceVolume with a CircleByCenterPoint boundary, such as what might be used to describe a TC center and radius
+-->
+<saf:AirspaceVolume gml:id="uuid.e8b27360-a179-11e2-9e96-0800200c9a66" xmlns:saf="http://icao.int/saf/1.1"
+    xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <gml:identifier codeSpace="urn:uuid:">e8b27360-a179-11e2-9e96-0800200c9a66</gml:identifier>
+    <saf:upperLimit uom="ft">50000</saf:upperLimit>
+    <saf:upperLimitReference>MSL</saf:upperLimitReference>
+    <saf:horizontalProjection>
+        <gml:Surface gml:id="sfc001" srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+            <gml:polygonPatches>
+                <gml:PolygonPatch>
+                    <gml:exterior>
+                        <gml:Ring>
+                            <gml:curveMember>
+                                <gml:Curve gml:id="curve001">
+                                    <gml:segments>
+                                        <gml:CircleByCenterPoint numArc="1">
+                                            <gml:pos>27.06 -73.06</gml:pos>
+                                            <gml:radius uom="n.mi">150</gml:radius>
+                                        </gml:CircleByCenterPoint>
+                                    </gml:segments>
+                                </gml:Curve>
+                            </gml:curveMember>
+                        </gml:Ring>
+                    </gml:exterior>
+                </gml:PolygonPatch>
+            </gml:polygonPatches>
+        </gml:Surface>
+    </saf:horizontalProjection>
+</saf:AirspaceVolume>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- An example of a runway direction - 27 right.  The associated by-reference Runway includes 
+    both runway directions: 27R and 09L.  The Runway could also be specified completely inline, but this is 
+    ommitted for brevity -->
+<saf:RunwayDirection xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:saf="http://icao.int/saf/1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    gml:id="uuid.b1947d80-b7f7-11e2-9e96-0800200c9a66">
+    <gml:identifier codeSpace="urn:uuid:">b1947d80-b7f7-11e2-9e96-0800200c9a66</gml:identifier>
+    
+    <saf:designator>27R</saf:designator>
+    <saf:trueBearing uom="deg">265.2300109863281</saf:trueBearing>
+    <saf:elevationTDZ uom="m">20.5</saf:elevationTDZ>
+    <!-- Runway "09L/27R" -->
+    <saf:usedRunway xlink:href="#urn.uuid.9e51668f-bf8a-4f5b-ba6e-27087972b9b8"/>
+    
+</saf:RunwayDirection>

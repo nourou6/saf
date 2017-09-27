@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<saf:Unit xmlns:saf="http://icao.int/saf/1.0" xmlns:gml="http://www.opengis.net/gml/3.2"
+    gml:id="uuid.add57e70-b85f-11e2-9e96-0800200c9a66">
+    <gml:identifier codeSpace="urn:uuid:">add57e70-b85f-11e2-9e96-0800200c9a66</gml:identifier>
+    <saf:name>YUCC MWO</saf:name>
+    <saf:type>MWO</saf:type>
+    <saf:designator>YUCC</saf:designator>
+    <saf:position>
+        <gml:Point gml:id="pt001" srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+            <gml:pos>52.288884 -32.035</gml:pos>
+        </gml:Point>
+    </saf:position>
+</saf:Unit>

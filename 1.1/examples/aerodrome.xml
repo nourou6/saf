@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Aerodrome with identification and location information
+
+    Partially based upon AIXM example: https://extranet.eurocontrol.int/http://webprisme.cfmu.eurocontrol.int/aixmwiki_public/bin/view/Main/%5Bfeature%5D%20AirportHeliport
+-->
+<saf:Aerodrome gml:id="uuid.dd062d88-3e64-4a5d-bebd-89476db9ebea" xmlns:saf="http://icao.int/saf/1.1"
+    xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <gml:identifier codeSpace="urn:uuid:">dd062d88-3e64-4a5d-bebd-89476db9ebea</gml:identifier>
+    <saf:designator>YUDO</saf:designator>
+    <saf:name>DONLON/INTERNATIONAL</saf:name>
+    <saf:locationIndicatorICAO>YUDO</saf:locationIndicatorICAO>
+    <!-- Field elevation is relative to mean sea level -->
+    <saf:fieldElevation uom="m">1234.0</saf:fieldElevation>
+    <saf:ARP>
+        <gml:Point gml:id="pt001" srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+            <gml:pos>52.288884 -32.035</gml:pos>
+        </gml:Point>
+    </saf:ARP>
+</saf:Aerodrome>

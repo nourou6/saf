@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- An example of an AirspaceVolume with a LinearRing boundary, used to describe the exterior polygon -->
+<saf:AirspaceVolume xmlns:saf="http://icao.int/saf/1.0"
+    xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink"
+    gml:id="uuid.0a49d8b0-a17a-11e2-9e96-0800200c9a66">
+    <gml:identifier codeSpace="urn:uuid:">0a49d8b0-a17a-11e2-9e96-0800200c9a66</gml:identifier>
+    <saf:horizontalProjection>
+        <gml:Surface gml:id="sfc001" uomLabels="Lat Lon" srsDimension="2"
+            srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+            <gml:patches>
+                <gml:PolygonPatch>
+                    <gml:exterior>
+                        <gml:LinearRing>
+                            <!-- (Artificial) Amswell FIR boundary -->
+                            <gml:posList>60.0 -30.0 60.0 -10.0 54.0 -10.0 53.0 -15.0 51.0 -15.0 51.0
+                                -8.0 45.0 -8.0 45.0 -30.0</gml:posList>
+                        </gml:LinearRing>
+                    </gml:exterior>
+                </gml:PolygonPatch>
+            </gml:patches>
+        </gml:Surface>
+    </saf:horizontalProjection>
+</saf:AirspaceVolume>

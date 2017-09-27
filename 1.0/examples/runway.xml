@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Example runway 09L/29R.  The aerodrome is by-reference in this example -->
+<saf:Runway xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:saf="http://icao.int/saf/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+    gml:id="uuid.2f864fc0-b7f8-11e2-9e96-0800200c9a66">
+    
+    <gml:identifier codeSpace="urn:uuid:">2f864fc0-b7f8-11e2-9e96-0800200c9a66</gml:identifier>
+    <saf:designator>09L/27R</saf:designator>
+    <!-- reference to an Aerodrome -->
+    <saf:associatedAirportHeliport xlink:href="#urn.uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c64"/>
+    
+</saf:Runway>
